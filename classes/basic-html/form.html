@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <p>Los formularios nos permiten recopilar datos del usuario y enviarlos a un servidor backend, deben tener un metodo
+        que por lo general es post, los creamos con la etiqueta <strong>&lt;form&gt;</strong> a la vez dentro van las
+        etiquetas <strong>&lt;form&gt;</strong> con su respectivo tipo, es decir texto, correo electrónico, contraseña,
+        fecha, rango, color, subir archivo, checkbox, radio, los inputs de texto pueden tener el atributo placeholder
+        que es un texto que describe el tipo de campo que debe diligenciar el usuario, el atributo name que es el
+        identificador del campo cuando el formulario se envía. Es el nombre con el que llegan los datos al servidor,
+        también el atributo required que obliga al usuario a diligenciar el campo para poder enviar el formulario, hasta
+        que no lo diligencia el formulario no se enviara. </strong></p>
+    <form action="">
+        <input type="text" required placeholder="texto">
+        <input type="email" placeholder="Your email" required>
+        <input type="password" placeholder="Your password" required>
+        <input type="submit">
+        <input type="date" required>
+        <input type="color" required>
+        <input type="file" required>
+        <input type="checkbox" required>
+        <input type="radio" required>
+    </form>
+</body>
+</html>
