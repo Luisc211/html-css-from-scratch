@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas</title>
+</head>
+<body>
+    <h1>Rutas</h1>
+    <p>En HTML existen dos tipos de rutas, las rutas relativas, y las rutas absoultas, las rutas relativas son aquellas
+        que para citarlas las llamamos d euna u otra forma, según donde estemos ubicados, mientras que las rutas
+        absolutas siempre seran las mismas para citarlas, no importa donde estemos, pueden ser imágenes, audios, videos,
+        archivos CSS, scripts de JavaScript, las rutas absolutas se suelen ustilizar para consumir recursos externos, es
+        decir de internet, u otros servidores, mientras que las rutas relativas son recursos que consumimos de nuestro
+        propio proyecto, podemos consumir rescursos dentro de la misma carpeta, ir a una subcarpeta, subir de nivel, o
+        consumir elementos de carpeta padre, o dos carpetas padres.</p>
+    <h2>Ruta absoluta que nos dirige a YouTube</h2>
+    <a href="https://YouTube.com">Ir a YouTube</a>
+    <h2>Rutas relativas</h2>
+    <h3>Misma carpeta</h3>
+    <p><strong>&lt;img src="Imagen-dentro-de-la-misma-carpeta-o-jerarquia"&gt;</strong></p>
+    <img src="Paisaje-natural.jpg" alt="Imágen dentro de la misma carpeta">
+    <h3>Subcarpeta</h3>
+    <p>Debemos escribir un / por cada subcarpeta a la que vayamos a entrar para ubicar ese recurso que necesitamos
+        consumir.</p>
+    <img src="images/Paisaje-natural.jpg" alt="Paisaje-natural">
+    <h3>Carpeta padre (subir un nivel)</h3>
+    <p>Debemos agregar un ../ por cada carpeta que necesitemos subir</p>
+    <a href="../lists.html">Ir a listas HTML</a>
+    <h3>Subir dos niveles</h3>
+    <a href="../../basic-html/basic-links/link1.html">Ir a links 1</a>
+</body>
+</html>
