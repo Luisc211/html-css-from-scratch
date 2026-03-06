@@ -1,0 +1,16 @@
+/*Selección por elemento, dara color green a todos los elementos con la etiqueta <p>*/
+p {
+    color: blue;
+}
+
+/*Selector por clase, se asigna la clase en HTML, y para invocarla en CSS, y para invocar el elemento por su clase
+le agregamos un . por delante*/
+.ingrediente-faltante {
+    color: red;
+}
+
+/*Selector por id: Solo debe haber un elemento con un id por página, es decir no puede haber más de un elemento con el mismo id
+por página, ya que es un identificador único, se invoca agregando el signo del hashtag o numeral por delante del id*/
+#ingrediente-secreto {
+    color: green;
+}
