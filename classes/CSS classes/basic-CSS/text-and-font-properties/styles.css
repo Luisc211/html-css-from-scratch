@@ -1,0 +1,14 @@
+p {
+    color: green; /*Modifica el color del texto*/
+    font-family: 'Times New Roman'; /*Estilo de fuente, se pone entre comillas cuando llevan más de una palabra, y sin comillas si es una sola palabra, o dos palabras separadas por guion medio.*/
+    font-size: 16px; /*Tamaño de la letra, por defecto para los p, es 16px*/
+    font-weight: bold ;/*Grozor de la letra, del 100 al 900, aunque algunas tipograías tienen solo 1, 2, 3 o las 9, ya depende de cada tipografía, bold establece el mismo peso de 700, y bolder va más arriba*/
+    font-style: oblique ; /*Cursiva, normal, y oblique, también varía dependiendo de cada familia de fuentes*/
+    text-align: center ; /*Alinea texto dentro de su contenedor, right, center, left*/
+    text-decoration: none ; /*Subrayado del texto, se pueden mezclar */
+    line-height: 1.5; /*Espacio entre líneas*/
+    letter-spacing: 2px ; /*Espacio entre letras*/
+    text-transform: none; /*Mayusculas, minusculas, capitalización de fuente*/
+    text-shadow: none; /*Sombras del texto*/
+
+}
