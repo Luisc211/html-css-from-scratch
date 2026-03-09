@@ -1,0 +1,13 @@
+div {
+    background: green;
+    width: 200px;
+    height: 200px;
+}
+
+form {
+    width: 300px;
+}
+
+input {
+    width: 90%; /*Ancho en porcentaje respecto a la caja contenedora, en este caso form*/
+}
