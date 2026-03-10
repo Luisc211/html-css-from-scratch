@@ -1,0 +1,26 @@
+.formulario {
+    background-color: green;
+    padding: 30px; /*Shorthand de padding-top, padding-right, padding-bottom, padding-left*/
+}
+
+.formulario_input {
+    padding: 9px 12px;
+    width: 100%;
+    background-color: black;
+    color: green
+}
+
+.formulario_submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: green;
+    width: 50%;
+    color: white;
+}
+
+.box {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    margin: 50px; /*Los margenes verticales se superponen, es decir el mayor es el que predomina, si dos elementos tienen el mismo magen, es el mismo, no se suman, si los dos tienen valores diferentes el mayor es que se queda*/
+}
