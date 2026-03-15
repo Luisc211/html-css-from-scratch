@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+
+
+div {
+    background-color: green;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+/*Todos los estilos se dan en una misma regla, pero nos enfocaremos en border, el estilo, el color y el tamaño, también los redondeos*/
+div {
+    /*Shorthand d eborder-width, border-color, y border-style*/
+    border: 2px black solid; /*Tamaño, estilo, color, se debe declarar en ese orden*/
+    border-radius: 4px;
+}
+
+/*Se pueden modificar los estilos y redonde de un borde especifico, top, right, left, bottom*/
+form {
+    width: 25%;
+}
+
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border:  none;
+    border-bottom: 1px greenyellow solid;
+    background-color: transparent;
+    color: greenyellow;
+}
