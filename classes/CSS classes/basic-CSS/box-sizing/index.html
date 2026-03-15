@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css">
+        <title>Box-sizing</title>
+    </head>
+    <body>
+        <h1>Box-sizing</h1>
+        <p>El box-sizing es una propiedad CSS que define cómo se calcula el tamaño total de un elemento, específicamente cómo se tienen en cuenta el padding y el borde en el ancho y alto declarados.</p>
+        <h2>Los dos valores</h2>
+        <h3>content-box (valor por defecto)</h3>
+        <p>El ancho y alto que definimos aplican solo al contenido. El padding y el borde se suman por fuera, haciendo el elemento más grande de lo que declaramos en ancho y alto.</p>
+        <h3>border-box</h3>
+        <p>El ancho y alto que definimos incluyen el padding y el borde. El contenido se encoge para acomodarlos, pero el elemento ocupa exactamente lo que declaramos.</p>
+        <h3>Ejemplo</h3>
+        <h4>Caja con content-box</h4>
+        <p>Declaramos un ancho y alto de 100px, le damos un padding de 20px, y un borde de 2px, es decir la caja medira 122pxpx de alto y ancho, ya que el padding y border se suman</p>
+        <div class="content_box"></div>
+        <h4>Caja con border-box</h4>
+        <p>Declaramos un ancho y alto de 100px, le damos un padding de 20px, y un borde de 2px, damos la propiedad box-sizing: content-box, ahora la caja medira 100px y se adaptara por mas de que le demos padding y border para medir exactamente lo que declaramos en width y height.</p>
+        <div class="border_box"></div>
+    </body>
+</html>
