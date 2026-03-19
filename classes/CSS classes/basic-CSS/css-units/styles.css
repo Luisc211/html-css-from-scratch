@@ -1,0 +1,30 @@
+html {
+    font-size: 30px;
+}
+
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 30px; /*em en elementos hijos*/
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    
+    height: 50vh; /*1% del alto del viewport*/
+    width: 50vw; /*1% del alto del viewport*/
+}
+
+.span_notifacion {
+    color: #999;
+    font-size: 1rem; /*rem es unidade relativa respecto al font-size del elemento raiz, se multiplica por la medida del elemento raiz, 1rem*30px=30px 2rem*30px=60px*/
+    font-weight: 100;
+}
+
+p {
+    color: #555;
+    font-size: 1em; /*em es unidad relativa respecto al font-size del elemento padre, en este caso div, 1 em es igual a 30px, 2em 60px, 3em 90px, si elemento padre no tiene la medida, buscara al elemento abuelo, bisabuelo, y si no encuentra pone el tamaño por defecto 16px*/
+}
