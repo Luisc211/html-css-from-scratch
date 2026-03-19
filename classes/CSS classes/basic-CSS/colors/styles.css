@@ -1,0 +1,31 @@
+/*Color verde */
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: green;
+}
+
+/*Color en RGBA*/
+.box_rgba {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: rgba(0, 255, 0, 255);
+}
+
+/*Color en hexadecimal*/
+.box_hexadecimal {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #f00;
+}
+
+/*Color en hsl*/
+.box_hsl {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: hsl(184, 100%, 89%);
+}
