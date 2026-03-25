@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: 280px;
+    /*height: 324px;*/
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-top: 30px;
+    /*Box Shadow: Sombras a las cajas*/
+    box-shadow: 0 0 40px 0 #0007; /*Parametros que pide: 1. Medida de la sombra horizontalmente, 2.Luego verticalmente, 3.luego pide el desenfoque o difuminado de la sombra, 4. expansión de la sombra, 5.y el color*/
+    padding: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #444;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    color:#999;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-shadow: 0 0 1px #f92;
+}
+
+p {
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+    text-shadow: 0 0 5px #f99; /*No pide el cuarto parámetro como en box-shadow*/
+}
+
+img {
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 0 0 40px 0 #0007;
+    
+}
+
+
+/*Text-shadow: Para el texto*/
+/*Box-shadow: Para las cajas*/
+/*Filter drop shadow: Imagenes*/
