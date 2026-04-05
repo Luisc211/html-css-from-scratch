@@ -1,32 +1,52 @@
 body {
-    background-color: black;
+    background-color: #fff;
     font-family: sans-serif;
     color: white;
 }
 
 
 .card {
-    background-color: coral;
+    background-color: #6ac;
     text-align: center;
     width: 300px;
     margin: auto; /*El margin: auto,  se utiliza mucho para centrar horizontalmente los elementos*/
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0 0 05px #0006;
+    border-radius: 8px;
 }
 
-h1 {
+.green-card {
+    background-color: #5b7;
+}
+
+.red-card {
+    background-color: #f86;
+}
+
+.card_title {
     padding-top: 10px;
     font-size: 22px;
     margin: 0;
 }
 
-h2 {
+.card_subtitle {
     font-size: 13px;
     font-weight: 100;
     letter-spacing: 2px;
+    margin: 0;
+    margin-top: 5px;
 }
 
-p {
+.card_content {
     font-size: 9px;
-    padding: 20px;
-    background-color: lightcoral;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
     text-align: justify;
+}
+
+.card_img {
+    width: 200px;
+    border-radius: 50%;
 }
