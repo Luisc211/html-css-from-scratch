@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Textarea y labels</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="name">Nombre completo</label>
+            <!--Lo envolvemos con el id, for-->
+            <input type="text" placeholder="Jhon Doe" id="name" />
+        </div>
+        <div class="form_input">
+            <label>Email
+                <!--En esta otra forma de enfocar el input con el label es envolviendolo dentro de la
+            etiqueta label-->
+                <input type="email" placeholder="example@gmail.com" />
+            </label>
+        </div>
+        <!--SELECT & OPTION-->
+        <div class="form_input">
+            <label>Tipo de usuario
+                <select name="type-of-user" id="">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+        <!--DATALIST & OPTION-->
+        <div class="form_input">
+            <label>Referente
+                <input list="Referente" />
+                <datalist id="Referente" name="type-of-user">
+                    <option value="user1">Luis Carlos</option>
+                    <option value="user2">Una empresa</option>
+                    <option value="user3">Un amigo</option>
+                </datalist>
+            </label>
+        </div>
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <label for="message">Mensaje</label>
+            <!--Readonly: Solo lectura, Disabeled: Desactivado, no hace focus, maxlenght: Cantidad maxima de caracteres-->
+            <textarea rows="8" placeholder="Deja tu mensaje aquí" id="message"></textarea>
+        </div>
+        <div class="form_input">
+            <label>Acepto los terminos y condiciones
+                <input type="checkbox" class="checkbox" />
+            </label>
+        </div>
+    </form>
+</body>
+</html>
