@@ -1,0 +1,50 @@
+/*!Selector de atributo*/
+/*Dar estilos a un elemento que tienen un atributo, o ese atributo tiene un valor definido*/
+/*?Ejemplo: Damos ancho de 100% a la imagen que tiene como atributo src="paisaje-natural.jpg"*/
+img[src="paisaje-natural.jpg"] {
+    width: 100%;
+}
+
+/*?Ejemplo 2: Damos ancho de 100% a la imagen que tiene como atributo src=".....", y ese atributo termina con ....png: "*/
+img[src$="png"] {
+    width: 100%;
+}
+
+/*?Ejemplo 3: Damos ancho de 20% a la imagen que su atributo arranque con src="chelsea....", y ese atributo"*/
+img[src^="Chelsea"] {
+    width: 20%;
+}
+
+/*!Selector descendiente*/
+/*Dar estilos a un elemento que esta siendo contenido por otro, por ejemplo dar estilo a unos li que esten dentro de una ul, solo si se cumple esa condición se dara el estilo, no sigue ningun orden de jerarquía*/
+ul li {
+    color: blue;
+}
+
+ul span {
+    color: green;
+    text-decoration: underline;
+}
+
+/*?Hijo directo> El elemento debe ser hijo directo de la etiqueta contenedora*/
+ul>li {
+    text-decoration: underline;
+}
+
+/*!Selector de hermano adyacente*/
+/*Damos estilos un elemento que venga después de otro, que sea su hermano, pero que no venga antes, tiene que ser
+después*/
+h1+p {
+    color: orange;
+}
+
+/*?Selector de hermanos génerales*/
+h1~p {
+    font-family: 'Times New Roman';
+}
+
+/*!Selector de más de un elemento*/
+h1,
+h2 {
+    background-color: yellowgreen;
+}
