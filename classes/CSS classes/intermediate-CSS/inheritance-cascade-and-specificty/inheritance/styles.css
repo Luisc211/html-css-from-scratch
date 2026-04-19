@@ -1,0 +1,13 @@
+body {
+    color: green; /*Si le damos color directamente al body, se hereda a toda la tipografía de la página.*/
+    font-family: sans-serif;
+}
+
+h1 {
+    color: inherit; /*Inherit buscara que elemento supereior en jerarquía tiene definido color*/
+}
+
+p {
+    color: initial; /*Con initial se reestablece al valor por defecto del navegador*/
+    /*Revert da los estilos que tenga el usuario, (si tiene)*/
+}
