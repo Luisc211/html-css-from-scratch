@@ -1,0 +1,23 @@
+/*Cuando la regla que usamos es la misma, queda la ultima que escribamos, por ejemplo seleccionamos por elemento al elemento h1 y le damos primero el color rojo, luego seleccionamos de la misma manera y le damos el color verde*/
+.title {
+    color: blue; /*Si le damos estilo al elemento, por su clase lo tomara sin importar el orden en que lo escribamos, es decir no aplica la cascada*/
+}
+
+#title {
+    color: orange; /*Por id es aún más especifico*/
+}
+
+h1 {
+    color: red;
+}
+
+h1 {
+    color: green;/*Se sobreescribe, y ahora se vuelve verde*/
+}
+
+/*------Orden de importancia-------*/
+/*!important*/
+/*style=""*/
+/*CSS*/ /*<style>*/
+/*Usuario*/
+/*Navegador*/
