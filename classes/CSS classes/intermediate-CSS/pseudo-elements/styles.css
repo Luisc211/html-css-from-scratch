@@ -1,0 +1,38 @@
+div {
+    padding: 20px;
+}
+
+/*First-letter*/
+h1::first-letter {
+    color: green;
+}
+/*First-line*/
+p::first-line {
+    color: green;
+    text-decoration: underline;
+
+}
+/*Pseudo elemento seleccionado*/
+h1::selection {
+    background-color: blueviolet;
+    color: black;
+}
+/*Pseudo elemento: placeholder*/
+input::placeholder {
+    color: green;
+}
+/*Marker*/
+li::marker {
+    color: blue;
+}
+
+/*Antes y después: before y after*/
+li:before {
+    content: "Antes";
+    color: green;
+}
+
+li:after {
+    content: " Después";
+    color: red;
+}
