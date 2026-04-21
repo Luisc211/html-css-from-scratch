@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #48e;
+}
+
+/*!Pseudo clase hover, cambia de color cuando se pasa el mouse sobre ele elemento*/
+h2:hover{
+    color: black;
+}
+/*La calse active cambia el color cuando el elemento se clickea, ya sea clic derecho o izquierdo.*/
+h2:active{
+    color: green;
+}
+
+li:first-child{
+    color: orange;
+}
+
+li:last-child{
+    color: purple;
+}
+
+li:nth-child(2){
+    color: blueviolet;
+}
+
+/*List items que esten dentro de la lista con la clase .alterno, se colorizaran cada dos elementos, también cada uno, tres, etc. */
+.alterno li:nth-child(2n) {
+    color: darkmagenta;
+}
+
+div {
+    background-color: darkorange;
+    padding: 10px;
+    margin: 5px;
+    width: 25%;
+}
+/*Pseudo clase empty> Elementos vacios*/
+div:empty{
+    background-color: red;
+    padding: 10px;
+
+}
+
+/*Pseudo clase checked*/
+input[type="checkbox"] {
+    margin: 50px;
+}
+
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+
+
+/*Pseudo clase visited*/
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/*Pseudo clase is*/
+body:is(h1, h2, h3, h4, h5, h6) {
+    color: darkviolet;
+}
+
+/*Pseudo clase has*/
+label:has(input:invalid) {
+    color: red;
+    font-weight: bolder;
+}
+
+label:has(input:valid) {
+    color: green;
+    font-weight: bolder;
+}
