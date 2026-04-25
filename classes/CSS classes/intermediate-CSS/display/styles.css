@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+div {
+    background-color: #999797 ;
+    padding: 20px;
+}
+
+a {
+    background-color: #7D0606;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    display: block; /*Inicia una nueva linea, así haya espacio para apilar más elementos a su lado*/
+    width: 20%; /*Toma el ancho*/
+    height: 20px; /*Toma el alto*/
+    border-radius: 5px;
+}
