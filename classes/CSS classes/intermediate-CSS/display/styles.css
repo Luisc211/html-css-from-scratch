@@ -1,13 +1,54 @@
 body {
     margin: 0;
 }
+/*Sección inline*/
+.inline{
+    background-color: red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+.inline__link {
+    display: inline; /*Admite padding y margin pewro horizontalmete*/
+    background-color: purple;
+    padding: 20px; /*Admite Padding*/
+    height: 10px; /*Ignorado*/ 
+    width: 10px;   /*Ignorado*/ 
+    margin-left: 20px;
+}
+
+/*Inline-block*/
+.inline_block{
+    background-color: red;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+.inline_block__link {
+    display: inline-block; /*None es como si no estuviera*/
+    background-color: purple;
+    padding: 20px;
+    height: 10px;/*Admitido y aplicado*/
+    width: 10px; /*Admitido y aplicado*/
+    margin-left: 20px;
+}
+
+
 
 div {
     background-color: #999797 ;
     padding: 20px;
 }
 
-a {
+.block {
     background-color: #7D0606;
     color: #fff;
     padding: 10px;
