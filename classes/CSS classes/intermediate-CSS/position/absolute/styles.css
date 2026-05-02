@@ -1,0 +1,23 @@
+body {
+    background-color: #eded;
+    margin: 0;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    color: white;
+}
+
+.box--green {
+    background-color: green;
+    position: absolute; /*Respecto al primer padre que tenga position: absolute, relative o fixed, si no hay ninguno, se posiciona respecto al body, pierde su espacio en la página y sale del flujo del documento.*/
+    margin-top: 50px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+.box--red {
+    background-color: red;
+}
